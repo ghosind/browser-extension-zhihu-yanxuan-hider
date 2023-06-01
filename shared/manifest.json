@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "知乎盐选隐藏器",
+  "version": "0.1",
+  "description": "隐藏知乎盐选内容",
+  "content_scripts": [
+    {
+      "js": ["scripts/yanxuan.js"],
+      "matches": [
+        "https://www.zhihu.com/*",
+        "https://www.zhihu.com/question/*"
+      ]
+    }
+  ]
+}
