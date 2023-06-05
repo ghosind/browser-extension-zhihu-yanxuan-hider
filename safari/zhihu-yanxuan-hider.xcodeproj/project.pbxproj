@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B51A9A2A2E3B40003D781C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51A992A2E3B40003D781C /* AppDelegate.swift */; };
+		A2B51A9C2A2E3B40003D781C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51A9B2A2E3B40003D781C /* SceneDelegate.swift */; };
+		A2B51A9F2A2E3B40003D781C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A9D2A2E3B40003D781C /* LaunchScreen.storyboard */; };
+		A2B51AA22A2E3B40003D781C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B51AA02A2E3B40003D781C /* Main.storyboard */; };
+		A2B51AAB2A2E3B40003D781C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51AAA2A2E3B40003D781C /* AppDelegate.swift */; };
+		A2B51AAE2A2E3B40003D781C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B51AAC2A2E3B40003D781C /* Main.storyboard */; };
+		A2B51AB52A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A2B51AB42A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2B51ABF2A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A2B51ABE2A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2B51AC52A2E3B40003D781C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A802A2E3B3C003D781C /* Main.html */; };
+		A2B51AC62A2E3B40003D781C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A802A2E3B3C003D781C /* Main.html */; };
+		A2B51AC72A2E3B40003D781C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A822A2E3B3C003D781C /* Icon.png */; };
+		A2B51AC82A2E3B40003D781C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A822A2E3B3C003D781C /* Icon.png */; };
+		A2B51AC92A2E3B40003D781C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A832A2E3B3C003D781C /* Style.css */; };
+		A2B51ACA2A2E3B40003D781C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A832A2E3B3C003D781C /* Style.css */; };
+		A2B51ACB2A2E3B40003D781C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A842A2E3B3C003D781C /* Script.js */; };
+		A2B51ACC2A2E3B40003D781C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A842A2E3B3C003D781C /* Script.js */; };
+		A2B51ACD2A2E3B40003D781C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51A852A2E3B3C003D781C /* ViewController.swift */; };
+		A2B51ACE2A2E3B40003D781C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51A852A2E3B3C003D781C /* ViewController.swift */; };
+		A2B51ACF2A2E3B40003D781C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A862A2E3B3F003D781C /* Assets.xcassets */; };
+		A2B51AD02A2E3B40003D781C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A862A2E3B3F003D781C /* Assets.xcassets */; };
+		A2B51AD12A2E3B40003D781C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51A882A2E3B3F003D781C /* SafariWebExtensionHandler.swift */; };
+		A2B51AD22A2E3B40003D781C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B51A882A2E3B3F003D781C /* SafariWebExtensionHandler.swift */; };
+		A2B51AD72A2E3B40003D781C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A8C2A2E3B3F003D781C /* manifest.json */; };
+		A2B51AD82A2E3B40003D781C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A2B51A8C2A2E3B3F003D781C /* manifest.json */; };
+		A2B51AF72A2E3E1F003D781C /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = A2B51AF62A2E3E1F003D781C /* scripts */; };
+		A2B51AF82A2E3E1F003D781C /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = A2B51AF62A2E3E1F003D781C /* scripts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B51AB62A2E3B40003D781C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B51A7A2A2E3B3C003D781C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B51AB32A2E3B40003D781C;
+			remoteInfo = "zhihu-yanxuan-hider Extension (iOS)";
+		};
+		A2B51AC02A2E3B40003D781C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B51A7A2A2E3B3C003D781C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B51ABD2A2E3B40003D781C;
+			remoteInfo = "zhihu-yanxuan-hider Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2B51AE82A2E3B40003D781C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A2B51AB52A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AEF2A2E3B40003D781C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A2B51ABF2A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2B51A812A2E3B3C003D781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		A2B51A822A2E3B3C003D781C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A2B51A832A2E3B3C003D781C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A2B51A842A2E3B3C003D781C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A2B51A852A2E3B3C003D781C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2B51A862A2E3B3F003D781C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B51A882A2E3B3F003D781C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A2B51A8C2A2E3B3F003D781C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A2B51A962A2E3B40003D781C /* zhihu-yanxuan-hider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zhihu-yanxuan-hider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B51A992A2E3B40003D781C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2B51A9B2A2E3B40003D781C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2B51A9E2A2E3B40003D781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2B51AA12A2E3B40003D781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B51AA32A2E3B40003D781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B51AA82A2E3B40003D781C /* zhihu-yanxuan-hider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zhihu-yanxuan-hider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B51AAA2A2E3B40003D781C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2B51AAD2A2E3B40003D781C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B51AAF2A2E3B40003D781C /* zhihu-yanxuan-hider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "zhihu-yanxuan-hider.entitlements"; sourceTree = "<group>"; };
+		A2B51AB42A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "zhihu-yanxuan-hider Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B51AB92A2E3B40003D781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B51ABE2A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "zhihu-yanxuan-hider Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B51AC32A2E3B40003D781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B51AC42A2E3B40003D781C /* zhihu-yanxuan-hider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "zhihu-yanxuan-hider.entitlements"; sourceTree = "<group>"; };
+		A2B51AF62A2E3E1F003D781C /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = ../../../shared/scripts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B51A932A2E3B40003D781C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AA52A2E3B40003D781C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AB12A2E3B40003D781C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51ABB2A2E3B40003D781C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B51A792A2E3B3C003D781C = {
+			isa = PBXGroup;
+			children = (
+				A2B51A7E2A2E3B3C003D781C /* Shared (App) */,
+				A2B51A872A2E3B3F003D781C /* Shared (Extension) */,
+				A2B51A982A2E3B40003D781C /* iOS (App) */,
+				A2B51AA92A2E3B40003D781C /* macOS (App) */,
+				A2B51AB82A2E3B40003D781C /* iOS (Extension) */,
+				A2B51AC22A2E3B40003D781C /* macOS (Extension) */,
+				A2B51A972A2E3B40003D781C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B51A7E2A2E3B3C003D781C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51A852A2E3B3C003D781C /* ViewController.swift */,
+				A2B51A862A2E3B3F003D781C /* Assets.xcassets */,
+				A2B51A7F2A2E3B3C003D781C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		A2B51A7F2A2E3B3C003D781C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51A802A2E3B3C003D781C /* Main.html */,
+				A2B51A822A2E3B3C003D781C /* Icon.png */,
+				A2B51A832A2E3B3C003D781C /* Style.css */,
+				A2B51A842A2E3B3C003D781C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2B51A872A2E3B3F003D781C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51A882A2E3B3F003D781C /* SafariWebExtensionHandler.swift */,
+				A2B51A892A2E3B3F003D781C /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		A2B51A892A2E3B3F003D781C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51AF62A2E3E1F003D781C /* scripts */,
+				A2B51A8C2A2E3B3F003D781C /* manifest.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2B51A972A2E3B40003D781C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51A962A2E3B40003D781C /* zhihu-yanxuan-hider.app */,
+				A2B51AA82A2E3B40003D781C /* zhihu-yanxuan-hider.app */,
+				A2B51AB42A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */,
+				A2B51ABE2A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B51A982A2E3B40003D781C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51A992A2E3B40003D781C /* AppDelegate.swift */,
+				A2B51A9B2A2E3B40003D781C /* SceneDelegate.swift */,
+				A2B51A9D2A2E3B40003D781C /* LaunchScreen.storyboard */,
+				A2B51AA02A2E3B40003D781C /* Main.storyboard */,
+				A2B51AA32A2E3B40003D781C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		A2B51AA92A2E3B40003D781C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51AAA2A2E3B40003D781C /* AppDelegate.swift */,
+				A2B51AAC2A2E3B40003D781C /* Main.storyboard */,
+				A2B51AAF2A2E3B40003D781C /* zhihu-yanxuan-hider.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		A2B51AB82A2E3B40003D781C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51AB92A2E3B40003D781C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		A2B51AC22A2E3B40003D781C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A2B51AC32A2E3B40003D781C /* Info.plist */,
+				A2B51AC42A2E3B40003D781C /* zhihu-yanxuan-hider.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B51A952A2E3B40003D781C /* zhihu-yanxuan-hider (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B51AE92A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider (iOS)" */;
+			buildPhases = (
+				A2B51A922A2E3B40003D781C /* Sources */,
+				A2B51A932A2E3B40003D781C /* Frameworks */,
+				A2B51A942A2E3B40003D781C /* Resources */,
+				A2B51AE82A2E3B40003D781C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B51AB72A2E3B40003D781C /* PBXTargetDependency */,
+			);
+			name = "zhihu-yanxuan-hider (iOS)";
+			productName = "zhihu-yanxuan-hider (iOS)";
+			productReference = A2B51A962A2E3B40003D781C /* zhihu-yanxuan-hider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B51AA72A2E3B40003D781C /* zhihu-yanxuan-hider (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B51AF02A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider (macOS)" */;
+			buildPhases = (
+				A2B51AA42A2E3B40003D781C /* Sources */,
+				A2B51AA52A2E3B40003D781C /* Frameworks */,
+				A2B51AA62A2E3B40003D781C /* Resources */,
+				A2B51AEF2A2E3B40003D781C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B51AC12A2E3B40003D781C /* PBXTargetDependency */,
+			);
+			name = "zhihu-yanxuan-hider (macOS)";
+			productName = "zhihu-yanxuan-hider (macOS)";
+			productReference = A2B51AA82A2E3B40003D781C /* zhihu-yanxuan-hider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B51AB32A2E3B40003D781C /* zhihu-yanxuan-hider Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B51AE52A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider Extension (iOS)" */;
+			buildPhases = (
+				A2B51AB02A2E3B40003D781C /* Sources */,
+				A2B51AB12A2E3B40003D781C /* Frameworks */,
+				A2B51AB22A2E3B40003D781C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zhihu-yanxuan-hider Extension (iOS)";
+			productName = "zhihu-yanxuan-hider Extension (iOS)";
+			productReference = A2B51AB42A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A2B51ABD2A2E3B40003D781C /* zhihu-yanxuan-hider Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B51AEC2A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider Extension (macOS)" */;
+			buildPhases = (
+				A2B51ABA2A2E3B40003D781C /* Sources */,
+				A2B51ABB2A2E3B40003D781C /* Frameworks */,
+				A2B51ABC2A2E3B40003D781C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zhihu-yanxuan-hider Extension (macOS)";
+			productName = "zhihu-yanxuan-hider Extension (macOS)";
+			productReference = A2B51ABE2A2E3B40003D781C /* zhihu-yanxuan-hider Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B51A7A2A2E3B3C003D781C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A2B51A952A2E3B40003D781C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A2B51AA72A2E3B40003D781C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A2B51AB32A2E3B40003D781C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A2B51ABD2A2E3B40003D781C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A2B51A7D2A2E3B3C003D781C /* Build configuration list for PBXProject "zhihu-yanxuan-hider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2B51A792A2E3B3C003D781C;
+			productRefGroup = A2B51A972A2E3B40003D781C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B51A952A2E3B40003D781C /* zhihu-yanxuan-hider (iOS) */,
+				A2B51AA72A2E3B40003D781C /* zhihu-yanxuan-hider (macOS) */,
+				A2B51AB32A2E3B40003D781C /* zhihu-yanxuan-hider Extension (iOS) */,
+				A2B51ABD2A2E3B40003D781C /* zhihu-yanxuan-hider Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B51A942A2E3B40003D781C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51AC72A2E3B40003D781C /* Icon.png in Resources */,
+				A2B51A9F2A2E3B40003D781C /* LaunchScreen.storyboard in Resources */,
+				A2B51AC52A2E3B40003D781C /* Main.html in Resources */,
+				A2B51ACB2A2E3B40003D781C /* Script.js in Resources */,
+				A2B51ACF2A2E3B40003D781C /* Assets.xcassets in Resources */,
+				A2B51AA22A2E3B40003D781C /* Main.storyboard in Resources */,
+				A2B51AC92A2E3B40003D781C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AA62A2E3B40003D781C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51AC82A2E3B40003D781C /* Icon.png in Resources */,
+				A2B51ACA2A2E3B40003D781C /* Style.css in Resources */,
+				A2B51AAE2A2E3B40003D781C /* Main.storyboard in Resources */,
+				A2B51ACC2A2E3B40003D781C /* Script.js in Resources */,
+				A2B51AD02A2E3B40003D781C /* Assets.xcassets in Resources */,
+				A2B51AC62A2E3B40003D781C /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AB22A2E3B40003D781C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51AD72A2E3B40003D781C /* manifest.json in Resources */,
+				A2B51AF72A2E3E1F003D781C /* scripts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51ABC2A2E3B40003D781C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51AD82A2E3B40003D781C /* manifest.json in Resources */,
+				A2B51AF82A2E3E1F003D781C /* scripts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B51A922A2E3B40003D781C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51ACD2A2E3B40003D781C /* ViewController.swift in Sources */,
+				A2B51A9A2A2E3B40003D781C /* AppDelegate.swift in Sources */,
+				A2B51A9C2A2E3B40003D781C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AA42A2E3B40003D781C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51ACE2A2E3B40003D781C /* ViewController.swift in Sources */,
+				A2B51AAB2A2E3B40003D781C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51AB02A2E3B40003D781C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51AD12A2E3B40003D781C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B51ABA2A2E3B40003D781C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B51AD22A2E3B40003D781C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B51AB72A2E3B40003D781C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B51AB32A2E3B40003D781C /* zhihu-yanxuan-hider Extension (iOS) */;
+			targetProxy = A2B51AB62A2E3B40003D781C /* PBXContainerItemProxy */;
+		};
+		A2B51AC12A2E3B40003D781C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B51ABD2A2E3B40003D781C /* zhihu-yanxuan-hider Extension (macOS) */;
+			targetProxy = A2B51AC02A2E3B40003D781C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B51A802A2E3B3C003D781C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B51A812A2E3B3C003D781C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A2B51A9D2A2E3B40003D781C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B51A9E2A2E3B40003D781C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B51AA02A2E3B40003D781C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B51AA12A2E3B40003D781C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B51AAC2A2E3B40003D781C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B51AAD2A2E3B40003D781C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B51AE32A2E3B40003D781C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2B51AE42A2E3B40003D781C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2B51AE62A2E3B40003D781C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider.Extension";
+				PRODUCT_NAME = "zhihu-yanxuan-hider Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2B51AE72A2E3B40003D781C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider.Extension";
+				PRODUCT_NAME = "zhihu-yanxuan-hider Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B51AEA2A2E3B40003D781C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider";
+				PRODUCT_NAME = "zhihu-yanxuan-hider";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2B51AEB2A2E3B40003D781C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider";
+				PRODUCT_NAME = "zhihu-yanxuan-hider";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B51AED2A2E3B40003D781C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/zhihu-yanxuan-hider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider.Extension";
+				PRODUCT_NAME = "zhihu-yanxuan-hider Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2B51AEE2A2E3B40003D781C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/zhihu-yanxuan-hider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider.Extension";
+				PRODUCT_NAME = "zhihu-yanxuan-hider Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A2B51AF12A2E3B40003D781C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/zhihu-yanxuan-hider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider";
+				PRODUCT_NAME = "zhihu-yanxuan-hider";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2B51AF22A2E3B40003D781C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/zhihu-yanxuan-hider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "zhihu-yanxuan-hider";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghosind.zhihu-yanxuan-hider";
+				PRODUCT_NAME = "zhihu-yanxuan-hider";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B51A7D2A2E3B3C003D781C /* Build configuration list for PBXProject "zhihu-yanxuan-hider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B51AE32A2E3B40003D781C /* Debug */,
+				A2B51AE42A2E3B40003D781C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B51AE52A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B51AE62A2E3B40003D781C /* Debug */,
+				A2B51AE72A2E3B40003D781C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B51AE92A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B51AEA2A2E3B40003D781C /* Debug */,
+				A2B51AEB2A2E3B40003D781C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B51AEC2A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B51AED2A2E3B40003D781C /* Debug */,
+				A2B51AEE2A2E3B40003D781C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B51AF02A2E3B40003D781C /* Build configuration list for PBXNativeTarget "zhihu-yanxuan-hider (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B51AF12A2E3B40003D781C /* Debug */,
+				A2B51AF22A2E3B40003D781C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B51A7A2A2E3B3C003D781C /* Project object */;
+}
